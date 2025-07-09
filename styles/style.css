@@ -22,7 +22,7 @@ header {
 h1 {
     text-align: center;
     color: var(--text-color);
-    margin: 10px;
+    margin: 12px;
 }
 
 .navigation ul {
@@ -157,7 +157,7 @@ nav, .aboutme h3, .photo h3, .courses h3, .courses p{
         height: auto;
         margin-bottom: 20px;
     }
-    
+
     #course-list {
         display: flex;
         flex-direction: column;

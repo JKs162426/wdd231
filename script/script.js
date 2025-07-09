@@ -92,6 +92,7 @@ filterLinks.forEach(link => {
 
 const courseList = document.querySelector("#course-list");
 
+// Hamburger menu toggle functionality
 const hamButton = document.querySelector('#menu');
 const navigation = document.querySelector('.navigation');
 
