@@ -77,7 +77,7 @@ filterLinks.forEach(link => {
         const filterText = link.textContent.trim();
         let filteredCourses;
 
-        if (filterText === "All") {
+        if (filterText === "ALL") {
             filteredCourses = courses;
         } else {
             filteredCourses = filterCourses(courses, filterText);
