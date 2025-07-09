@@ -1,0 +1,198 @@
+:root {
+    --primary-color: #044955; /* Green */
+    --secondary-color: #f2f2f2; /* Light Gray */
+    --text-color: #333; /* Dark Gray */
+    --font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+}
+
+header {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    padding: 10px 0;
+}
+
+h1 {
+    text-align: center;
+    color: var(--text-color);
+    margin: 10px;
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.navigation a:hover {
+    background-color: white;
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
+    border-radius: 5px
+}
+
+.navigation li, .courses li {
+    list-style: none;
+}
+
+.courses ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 0 20px;
+}
+
+.courses a {
+    color: var(--text-color);
+    text-decoration: none;
+    padding: 5px 50px;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+}
+
+.courses a:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+
+main {
+    padding: 20px 8px;
+}
+
+footer {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    text-align: center;
+    padding: 10px 0;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 10px;
+}
+
+nav, .aboutme h3, .photo h3, .courses h3, .courses p{
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#menu {
+    display: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.aboutme {
+    width: 70%;
+    height: 300px;
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.photo {
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+    height: 300px;
+}
+
+.hero img {
+    width: 50%;
+    height: 220px;
+    border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+    .navigation a {
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }   
+
+    .hero {
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .hero img {
+        width: 100%;
+        height: auto;
+    }
+
+    .aboutme, .photo {
+        width: 90%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    
+    #course-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #menu {
+        display: block;
+        color: #fff;
+        background-color: var(--primary-color);
+        border: none;
+        cursor: pointer;
+    }
+
+    .navigation {
+        display: none;
+    }
+    .navigation.open {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #menu::before {
+    content: "☰";
+    font-size: 32px;
+    }
+
+    #menu.open::before {
+    content: "X";
+    font-size: 32px;
+    margin: 0;
+    }
+
+    .menu-label {
+        display: none;
+    }
+}
