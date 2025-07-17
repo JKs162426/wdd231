@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Luis Figueroa",
+        "address": "Ave Nueva Granada, Caracas 1040, District Capital, Venezuela",
+        "phone": "+58 212-576-4897",
+        "website": "https://luisfigueroa.com",
+        "image": "./images/luis-figueroa.webp",
+        "membership level": "Gold",
+        "join date": "1993-01-06",
+        "role": "Admin"
+    },
+    {
+        "name": "Maria Fernanda Gonzalez",
+        "address": "Old Road 123, Caracas 1040, District Capital, Venezuela",
+        "phone": "+58 212-987-6543",
+        "website": "https://mariafernanda.com",
+        "image": "./images/maria-gonzalez.webp",
+        "membership level": "Gold",
+        "join date": "2002-06-15",
+        "role": "President"
+    },
+    {
+        "name": "Carlos Andres Mendoza",
+        "address": "456 Elm St, Caracas 1040, District Capital, Venezuela",
+        "phone": "+58 212-765-1209",
+        "website": "https://carlosmendoza.com",
+        "image": "./images/carlos-mendoza.webp",
+        "membership level": "Silver",
+        "join date": "1999-02-20",
+        "role": "Vice President"
+    },
+    {
+        "name": "Miguel Angel Torres",
+        "address": "123 Main St, Caracas 1040, District Capital, Venezuela",
+        "phone": "+58 212-667-2346",
+        "website": "https://miguelangel.com",
+        "image": "./images/miguel-torres.webp",
+        "membership level": "Bronze",
+        "join date": "2010-08-30",
+        "role": "Treasurer"
+    },
+    {
+        "name": "Sofia Ramirez",
+        "address": "456 Maple St, Caracas 1040, District Capital, Venezuela",
+        "phone": "+58 212-234-5678",
+        "website": "https://sofiaramirez.com",
+        "image": "./images/sofia-ramirez.webp",
+        "membership level": "Gold",
+        "join date": "2015-11-05",
+        "role": "Marketing Director"
+    },
+    {
+        "name": "Juan Perez",
+        "address": "789 Oak St, Caracas 1040, District Capital, Venezuela",
+        "phone": "+58 212-340-0050",
+        "website": "https://juanperez.com",
+        "image": "./images/juan-perez.webp",
+        "membership level": "Silver",
+        "join date": "2018-03-12",
+        "role": "Operations Manager"
+    },
+    {
+        "name": "Laura Martinez",
+        "address": "321 Pine St, Caracas 1040, District Capital, Venezuela",
+        "phone": "+58 212-456-7890",
+        "website": "https://lauramartinez.com",
+        "image": "./images/laura-martinez.webp",
+        "membership level": "Bronze",
+        "join date": "2020-07-22",
+        "role": "Event Coordinator"
+    }
+]
