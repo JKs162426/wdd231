@@ -5,7 +5,6 @@ year.innerHTML = today.getFullYear();
 const lastModified = document.querySelector("#lastModified");
 lastModified.innerHTML = document.lastModified;
 
-
 const membersContainer = document.querySelector('.directory');
 
 async function loadMembers() {
@@ -53,3 +52,4 @@ gridBtn.addEventListener('click', () => {
 listBtn.addEventListener('click', () => {
   directory.classList.add('list-view');
 });
+

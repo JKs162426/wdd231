@@ -1,0 +1,68 @@
+{
+    "businesses": [
+        {
+            "name": "Panaderia y Pasteleria La Estrella",
+            "address": "Calle Principal, Caracas, Venezuela",
+            "phone": "+58 (212) 123-4567",
+            "email": "info@panlaestrella.com",
+            "website": "https://www.panlaestrella.com",
+            "membership": "Gold",
+            "image": "./images/panlaestrella.webp"
+        },
+        {
+            "name": "Supermercado El Ahorro",
+            "address": "Avenida Libertador, Caracas, Venezuela",
+            "phone": "+58 (212) 234-5678",
+            "email": "info@supermercadoelahorro.com",
+            "website": "https://www.supermercadoelahorro.com",
+            "membership": "Silver",
+            "image": "./images/elahorro.webp"
+        },
+    
+        {
+            "name": "Negocios Internacionales S.A.",
+            "address": "1230 Cajigal St, Caracas, Venezuela",
+            "phone": "+58 (424) 345-6789",
+            "email": "info@negociosinternacionales.com",
+            "website": "https://www.negociosinternacionales.com",
+            "membership": "Silver",
+            "image": "./images/negociosinternacionales.webp"
+        },
+        {
+            "name": "Tecnologia y Soluciones C.A.",
+            "address": "321 Pine St, Caracas, Venezuela",
+            "phone": "+58 (212) 456-7890",
+            "email": "info@tecnologiaysoluciones.com",
+            "website": "https://www.tecnologiaysoluciones.com",
+            "membership": "Silver",
+            "image": "./images/tecnologiaysoluciones.webp"
+        },
+        {
+            "name": "Servicios Financieros Globales",
+            "address": "456 Maple St, Caracas, Venezuela",
+            "phone": "+58 (212) 567-8901",
+            "email": "info@serviciosfinancierosglobales.com",
+            "website": "https://www.serviciosfinancierosglobales.com",
+            "membership": "Gold",
+            "image": "./images/serviciosfinancieros.webp"
+        },
+        {
+            "name": "Agroindustria del Caribe",
+            "address": "789 Oak St, Caracas, Venezuela",
+            "phone": "+58 (212) 678-9012",
+            "email": "info@agroindustriadelcaribe.com",
+            "website": "https://www.agroindustriadelcaribe.com",
+            "membership": "Silver",
+            "image": "./images/agrocaribe.webp"
+        },
+        {
+            "name": "Restaurante El Pio Pio",
+            "address": "789 Oak St, Caracas, Venezuela",
+            "phone": "+58 (212) 789-0123",
+            "email": "info@elpipio.com",
+            "website": "https://www.elpipio.com",
+            "membership": "Gold",
+            "image": "./images/elpiopio.webp"
+        }
+    ]
+}
