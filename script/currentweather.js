@@ -12,7 +12,6 @@ const todayForecast = document.querySelector('#today-forecast');
 const tomorrowForecast = document.querySelector('#tomorrow-forecast');
 const dayAfterTomorrowForecast = document.querySelector('#day-after-tomorrow-forecast');
 
-const apiKey = 'c0ed5e4f830486c0424df70d42962d4a';
 const city = 'Caracas,ve';
 
 const currentWeatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;
