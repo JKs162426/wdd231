@@ -13,9 +13,6 @@
     <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="styles/directory.css">
     <script src="script/directory.js" defer></script>
-    <script src="script/api-key.js" defer></script>
-    <script src="../script/currentweather.js" defer></script>
-    <script src="script/business.js" defer></script>
     <title>Caracas Chamber of Commerce | Home Page</title>
 </head>
     <body>
@@ -36,43 +33,17 @@
         </nav>
     </header>
     <main>
-        <div class="hero-image">
-            <img src="images/caracas-city.webp" alt="Caracas City" loading="lazy" width="1000" height="400">
-            <button class="get-tickets">Get Tickets</button>
-        </div>
-        <h2>Home</h2>
-        <div class="weather">
-            <section class="events">
-                <h3>Events</h3>
-                <ul>
-                    <li><a href="https://www.eventbrite.com/e/caracas-business-expo-2023-tickets-1234567890">Caracas Business Expo 2025</a> - October 15, 2025</li>
-                    <li><a href="https://www.eventbrite.com/e/caracas-tech-conference-2023-tickets-1234567891">Caracas Tech Conference 2025</a> - November 5, 2025</li>
-                    <li><a href="https://www.eventbrite.com/e/caracas-food-festival-2023-tickets-1234567892">Caracas Food Festival 2025</a> - December 10, 2025</li>
-                </ul>
-            </section>
-            <section class="current-weather">
-                <h3>Current Weather</h3>
-                <figure>
-                    <img id="weather-icon" src="images" alt="Weather Icon" loading="lazy">
-                    <figcaption id="weather-caption"></figcaption>
-                </figure>
-                <p><span id="current-temp"></span>°C.</p>
-                <p><span id="weather-description"></span></p>
-                <p>High: <span id="high-temp"></span>°C</p>
-                <p>Low: <span id="low-temp"></span>°C</p>
-                <p>Humidity: <span id="humidity"></span>%</p>
-                <p>Sunrise: <span id="sunrise"></span></p>
-                <p>Sunset: <span id="sunset"></span></p>
-
-            </section>
-            <section>
-                <h3>Weather Forecast</h3>
-                <p>Today: <span id="today-forecast"></span></p>
-                <p>Tomorrow: <span id="tomorrow-forecast"></span></p>
-                <p>Day After Tomorrow: <span id="day-after-tomorrow-forecast"></span></p>
-            </section>
-        </div>
-        <div class="business-cards"></div>
+        <h1>Thank you for your submission</h1>
+         <p>Here is the information we received:</p>
+        <ul class="submission-details">
+            <li>First Name: <strong id="out-firstName"></strong></li>
+            <li>Last Name: <strong id="out-lastName"></strong></li>
+            <li>Email: <strong id="out-email"></strong></li>
+            <li>Mobile: <strong id="out-mobile"></strong></li>
+            <li>Organization: <strong id="out-orgName"></strong></li>
+            <li>Organization Description: <strong id="out-orgDesc"></strong></li>
+            <li>Timestamp: <strong id="out-timestamp"></strong></li>
+        </ul>
     </main>
     <footer>
         <div class="contact-info">
@@ -102,5 +73,15 @@
         <p>Last Modified: <span id="lastModified"></span></p>
         </div>
     </footer>
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        document.getElementById('out-firstName').textContent = params.get('firstName') || '';
+        document.getElementById('out-lastName').textContent = params.get('lastName') || '';
+        document.getElementById('out-email').textContent = params.get('email') || '';
+        document.getElementById('out-mobile').textContent = params.get('mobile') || '';
+        document.getElementById('out-orgName').textContent = params.get('orgName') || '';
+        document.getElementById('out-orgDesc').textContent = params.get('orgDesc') || '';
+        document.getElementById('out-timestamp').textContent = params.get('timestamp') || '';
+    </script>
 </body>
 </html>
