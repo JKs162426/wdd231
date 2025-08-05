@@ -1,0 +1,62 @@
+
+
+{
+    "places": [
+  {
+    "name": "Parque Nacional El Ávila",
+    "image": "images/el-avila.webp",
+    "address": "Caracas 1010, Distrito Capital, Venezuela",
+    "description": "Una majestuosa cadena montañosa que separa Caracas del Mar Caribe, ideal para hacer senderismo y disfrutar de la naturaleza.",
+    "link": "#"
+  },
+  {
+    "name": "Plaza Bolívar",
+    "image": "images/plaza-bolivar.webp",
+    "address": "Av. Sur 1, Caracas 1010, Distrito Capital, Venezuela",
+    "description": "Centro histórico y político de Caracas, rodeado de edificios coloniales como la Catedral y la Casa Natal del Libertador.",
+    "link": "#"
+  },
+  {
+    "name": "Teleférico de Caracas",
+    "image": "images/teleferico-caracas.webp",
+    "address": "Estación Maripérez, Caracas 1050, Venezuela",
+    "description": "Un paseo en teleférico hasta el Waraira Repano con vistas impresionantes de la ciudad y el mar.",
+    "link": "#"
+  },
+  {
+    "name": "Boulevard de Sabana Grande",
+    "image": "images/sabana-grande.webp",
+    "address": "Sabana Grande, Caracas 1050, Venezuela",
+    "description": "Un corredor peatonal lleno de tiendas, arte urbano, cafés y ambiente caraqueño.",
+    "link": "#"
+  },
+  {
+    "name": "Parque Los Caobos",
+    "image": "images/los-caobos.webp",
+    "address": "Av. Bolívar, Caracas 1010, Venezuela",
+    "description": "Parque céntrico con árboles centenarios, fuentes y esculturas. Ideal para pasear y relajarse.",
+    "link": "#"
+  },
+  {
+    "name": "Ciudad Universitaria de Caracas",
+    "image": "images/ucv.webp",
+    "address": "Universidad Central de Venezuela, Caracas 1040, Venezuela",
+    "description": "Obra maestra del arquitecto Carlos Raúl Villanueva y Patrimonio de la Humanidad por la UNESCO.",
+    "link": "#"
+  },
+  {
+    "name": "Galería de Arte Nacional",
+    "image": "images/art-gallery-venezuela.webp",
+    "address": "Av. México, Caracas 1010, Venezuela",
+    "description": "El principal museo de arte en Venezuela con obras desde el período colonial hasta el arte moderno.",
+    "link": "#"
+  },
+  {
+    "name": "Centro Cultural BOD",
+    "image": "images/bod.webp",
+    "address": "La Castellana, Caracas 1060, Venezuela",
+    "description": "Un espacio moderno para conciertos, teatro y exposiciones culturales.",
+    "link": "#"
+  }
+]
+}
