@@ -1,3 +1,4 @@
+// Local Storage Script
 const today = new Date();
 
 let lastVisit = localStorage.getItem("lastVisit");
