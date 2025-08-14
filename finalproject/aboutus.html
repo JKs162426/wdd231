@@ -7,12 +7,15 @@
     <meta name="description" content="This is a home page of a Pokedex Web App for the WDD231 project.">
     <meta property="og:title" content="Pokedex Web App | WDD 231">
     <meta property="og:description" content="This is a home page of a Pokedex Web App for the WDD231 project.">
-    <meta property="og:image" content="https://github.com/jks162426/wdd231/chamber/images/social-image.jpg">
+    <meta property="og:image" content="https://github.com/jks162426/wdd231/project/images/social-image.jpg">
     <meta property="og:url" content="https://jks162426.github.io/wdd231/project/index.html">
     <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="styles/pokedex.css">
-    <script src="script/pokedex.js" defer></script>
+    <script src="script/pokemon.mjs" type="module" defer></script>
     <title>My Pokedex</title>
 </head>
     <body>
@@ -22,25 +25,38 @@
             <h1>Pokedex Web App</h1>
         </div>
         <nav class="main-nav">
-            <button class="menu-toggle">Menu</button>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="directory.html" class="active">Directory</a></li>
-                <li><a href="join.html">Join</a></li>
-                <li><a href="discover.html">Discover</a></li>
+                <li><a href="pokemon.html" class="active">Pokemon lists</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
             </ul>
         </nav>
     </header>
     <main>
-       
+        <h2>About Us</h2>
+        <p>Welcome to the Pokedex Web App! This application is designed to help you explore the world of Pokémon.</p>
+        <p>Our goal is to provide a user-friendly interface for Pokémon enthusiasts to browse and learn about their favorite creatures.</p>
+        <p>Whether you're a seasoned trainer or just starting your journey, we hope you find this app helpful and informative.</p> 
+        <p>For any questions or feedback, feel free to reach out to us via the contact information provided in the footer.</p>
+        <p>Thank you for using our Pokedex Web App!</p>
+
+        <div class="contact-info">
+            <p><strong>Pokedex Web App</strong></p>
+            <p>Orem, Utah, USA</p>
+            <p>Email: jesus20jk@icloud.com</p>
+            <p>Phone: +1(385)5769148</p>
+        </div>
+        <div>
+            <h3>About me</h3>
+            <p>My name is Jesus Figueroa, and I am a passionate Pokémon fan and developer. I created this Pokedex Web App as part of my WDD231 final project.</p>
+        </div>
     </main>
     <footer>
         <div class="contact-info">
-            <p><strong>Caracas Chamber of Commerce</strong></p>
-            <p>Ave East 2, Caracas 1050, Capital District, Venezuela</p>
-            <p>Caracas, Venezuela 999</p>
-            <p>Email: info@chamberofcommerce.com</p>
-            <p>Phone: +58 (424) 288-1750</p>
+            <p><strong>Pokedex Web App</strong></p>
+            <p>Orem, Utah, USA</p>
+            <p>Email: jesus20jk@icloud.com</p>
+            <p>Phone: +1(385)5769148</p>
         </div>
         <div class="social-media">
             <a href="https://www.facebook.com"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" class="bi bi-facebook" viewBox="0 0 16 16">
@@ -56,7 +72,7 @@
             </svg><br>YouTube</a>
         </div>
         <div class="footer-info">
-            <p>WDD231 Class Project</p>
+            <p>WDD231 Final Project</p>
             <p>Developed by Jesus Figueroa</p>
             <p>&copy; <span id="currentyear"></span> Pokedex</p>
         <p>Last Modified: <span id="lastModified"></span></p>
